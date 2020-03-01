@@ -1,0 +1,108 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{scrextend}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\addtokomafont{labelinglabel}{\sffamily}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Gulnara Sungatullina} 
+\address{\space+79196827058 \\ sungatullina.gg@phystech.edu \\ t.me/Julnara \\ \textcolor{blue}{\href{https://github.com/sungulnara2000}{github.com/sungulnara2000}}}
+\begin{document}
+\begin{rSection}{Education}
+{\bf Moscow Institute of Physics and Technology, Russia} \hfill {\em Sep 2018 - July 2022} 
+\\ Bachelor in Applied Mathematics and Computer Science
+\\ Department of Innovation and High Technology
+\\ GPA: 4.6/5
+\\
+\\ {\bf Relevant courses}: Algorithms and Data Structures, C++, Computer Architecture of Operating Systems, Programming Technology, Databases, Discrete Mathematics, Algebra, Differential Equations, Calculus
+\\{\bf Extra}: Deep Learning School (ML basics, pytorch, optimizations, CV)
+\end{rSection}
+
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{9ex}} l }
+Languages \ & proficient in C++(Boost, STL), confident in Python(pytorch, sklearn), C, C\#,
+\\ &  SQL, familiar with Bash, ARM/x86 Assembly \\
+Technologies \ & experienced with Git, Linux, PostgreSQL, Jupyter, Colab, Docker
+\\ & familiar with Amazon Web Services, Travis CI \\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Projects}
+\begin{multicols}{2}
+{\bf HR database} (SQL) 
+\vspace{-2mm}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Designed a normalized database and filled it in.
+    \item Created views, triggers, and procedures in order to simplify the work of labor officers.
+\end{itemize}
+
+{\bf Telegram Compiler bot} (Python)
+\renewcommand\labelitemi{\tiny$\bullet$}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Developed a telegram bot, which helps to compile and receive program output via messenger.
+    \item Used REST API of an online compiler site  for proper functioning.
+    \item Set up AWS Virtual Machine for maintaining constant work.
+\end{itemize}
+
+{\bf \textcolor{blue}{\href{https://github.com/sungulnara2000/Journey-To-Springfiled/blob/master/Journey_to_Springfield.ipynb}{Journey to Springfield}}} (Python/pyTorch)
+\renewcommand\labelitemi{\tiny$\bullet$}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item convolutional classifier to distinguish all Springfield residents from the picture
+    \item 0.96 score on Kaggle(top 72\%)
+\end{itemize}
+
+
+{\bf \textcolor{blue}{\href{https://github.com/sungulnara2000/TravellingSalesmanProblem/tree/master/salesman_travis}{Travelling Salesman Problem}}} (C++)
+\vspace{-2mm}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Implemented 3/2-approximate algorithm for metric Travelling Salesman Problem.
+    % \item Tested on normally distributed points.
+\end{itemize}
+
+{\bf \textcolor{blue}{\href{https://github.com/sungulnara2000/RPG}{RPG game}}} (C\#/Visual Studio)
+\vspace{-2mm}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Designed and created an RPG game with simple graphical interface.
+    % \item The selected character is controlled using the keyboard arrows.
+    \item Used design patterns to improve project structure.
+\end{itemize}
+
+
+
+\end{multicols}
+\end{rSection}
+
+
+\begin{rSection}{Achievements}
+\begin{rSubsection}{National Technological Initiative Olympiad $|$ Unmanned aircraft systems}{\em March 2018}{top in team standings, individual prize-winner}{Moscow, Russia}
+\renewcommand\labelitemi{\tiny$\bullet$}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Simulated and programmed(C++) a mathematical model of airplane flight.
+    \item Launched an airplane model and reached 5\% deviation from the perfect flight path.
+    \item Beat 9 other teams by a large margin.
+\end{itemize}
+\end{rSubsection}
+
+{\bf "Phystech" Olympiad in Mathematics} - {\em winner} \hfill{\em Feb 2018}
+\end{rSection}
+
+\begin{rSection}{Personal}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+Spoken languages \ & English - B2, Russian - native, Tatar - native 
+% \\Hobbies \ & singing, cooking, work-out, 
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Activities}
+\renewcommand\labelitemi{\tiny$\bullet$}
+\begin{itemize}[noitemsep, parsep=0pt, leftmargin=*]
+    \item Organized MIPT Olympiad for more than 100 schoolchildren.
+    \item {\bf Hach\&Change hackathon}: solved the problem of placing self-pickup points using Voronoi diagram and ML.
+\end{itemize}
+\end{rSection}
+
+\end{document}
